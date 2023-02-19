@@ -2,11 +2,6 @@ package edu.craptocraft.fastbreaktruck.fastbreaktruck;
 
 import edu.craptocraft.fastbreaktruck.fastbreaktruck.behaviour.FastBreakTruck;
 import edu.craptocraft.fastbreaktruck.fastbreaktruck.domain.Desayuno;
-
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
 
