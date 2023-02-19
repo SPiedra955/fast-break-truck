@@ -1,2 +1,2 @@
 # fast-break-truck
-mock examn
+mock exam
