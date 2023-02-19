@@ -2,18 +2,19 @@ package edu.craptocraft.fastbreaktruck.fastbreaktruck.types;
 
 import edu.craptocraft.fastbreaktruck.fastbreaktruck.behaviour.Item;
 import edu.craptocraft.fastbreaktruck.fastbreaktruck.behaviour.Packing;
-import edu.craptocraft.fastbreaktruck.fastbreaktruck.domain.Tubo;
+import edu.craptocraft.fastbreaktruck.fastbreaktruck.domain.Caja;
 
-public abstract class Bebida implements Item{
+public abstract class Juguete implements Item{
 
-    public Bebida(){};
+    public Juguete(){};
 
+    @Override
     public Packing empaquetado(){
-        return new Tubo();
+        return new Caja();
     }
-    
+
     @Override
     public String toString(){
         return this.outputFormatter();
-    }
+    } 
 }
