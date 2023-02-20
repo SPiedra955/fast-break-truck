@@ -5,7 +5,7 @@ import edu.craptocraft.fastbreaktruck.fastbreaktruck.types.Bebida;
 public class TurbulentJuice extends Bebida{
 
     private final String NOMBRE = "Turbulent Juice";
-    private final Float PVP = 25f;
+    private final Float PVP = 30f;
 
     public TurbulentJuice(){};
 

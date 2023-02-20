@@ -15,7 +15,6 @@ public class FastBreakTruck {
         Desayuno desayuno = new Desayuno();
         desayuno.addItem(new Eyeholes());
         desayuno.addItem(new TurbulentJuice());
-        desayuno.addItem(new Plumbus());
         return desayuno;
     }
 
@@ -26,8 +25,8 @@ public class FastBreakTruck {
         return desayuno;
     }
 
-    public static void incluirJuguete(Desayuno desayuno){
-        desayuno.addItem(new Plumbus());
+    public static void incluirJuguete(Desayuno desayunoPlumbus){
+        desayunoPlumbus.addItem(new Plumbus());
     }
 
 }
