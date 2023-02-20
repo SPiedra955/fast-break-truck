@@ -3,7 +3,7 @@ import edu.craptocraft.fastbreaktruck.fastbreaktruck.types.Bebida;
 
 public class FleebJuice extends Bebida {
 
-    private final String NOMBRE = "FleebJuice";
+    private final String NOMBRE = "Fleeb Juice";
     private final Float PVP = 35f;
 
     public FleebJuice(){};

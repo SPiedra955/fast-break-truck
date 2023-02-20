@@ -4,7 +4,7 @@ import edu.craptocraft.fastbreaktruck.fastbreaktruck.types.*;;
 
 public class Eyeholes extends Cereales {
 
-    private final String NOMBRE = "Eyeholes";
+    private final String NOMBRE = "EyeHoles";
     private final Float pvp = 25f;
 
     public Eyeholes(){};
